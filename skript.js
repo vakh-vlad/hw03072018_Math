@@ -1,0 +1,10 @@
+var first = Math.floor(Math.random() * 90) + 10;
+var second = Math.floor(Math.random() * 90) + 10;
+//Math.floor(Math.random() * (max - min + 1)) + min;
+var third, fourth;
+third = (Math.cos(first)*(Math.sin(second)+1))/Math.floor((Math.random() * 100) + 1);
+fourth = (Math.tan(third)*Math.atan(third)) / 100;
+alert (first);
+alert (second);
+alert (third);
+alert (fourth);
